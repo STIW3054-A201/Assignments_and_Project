@@ -44,6 +44,8 @@ You are required to develop a small system using __MAVEN__ and __Java__ programm
 | 2   | 262572 | Norfatiah Binti Amir                  | 
 ```
 
+8. Example for Web Scraping -> https://github.com/zhamri/MyClass-JSoup
+
 
 ## SUBMISSION:
 
