@@ -56,7 +56,7 @@ You are required to develop a small system using __MAVEN__ and __Java__ programm
 1. The UML Class Diagram must be displayed at your `Readme.md`.
 1. Record the implementation of the system and upload to YouTube. The video presentation MUST be in English (without the music) and not more than 10 minutes.  Then add the link to your `Readme.md`.
 1. Write all references at your `Readme.md`. The references should not less than 10.
-1. Upload your JavaDoc in this repository.
+1. Upload your JavaDoc in this repository. Video --> [Step-by-step | How to create a simple JavaDoc in IntelliJ IDEA](https://youtu.be/fAQB556HtiI)
 1. To confirm the submission, paste your Assignment-1 REPOSITORY link at the issue below:    
    https://github.com/STIW3054-A201/Assignments_and_Project/issues/1
 
