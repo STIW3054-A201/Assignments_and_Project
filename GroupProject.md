@@ -26,6 +26,9 @@ You are required to develop a program using __MAVEN__ and __Java__ programming l
    * Count the percentage of the submitted isssues for each student. The percentage is based on the number of the given issues.
    * Display the name, number of the submitted issues and the percentage of the submitted issues.
    * Display all the unsubmitted issues' title.
+   * List of the assignments' title and the number of students who have submitted the assignments
+   * Count the number of submitted assignments for each student.
+   * Count the percentage of the submitted assignments for each student. The percentage is based on the number of the given assignments.
    
 
 ## Example of input (from telegram bots):
@@ -34,6 +37,8 @@ You are required to develop a program using __MAVEN__ and __Java__ programming l
 ```
 
 ## Example of output (from telegram bots):
+
+The format can be modified based on your creativity which is suitable for displaying at telegram.
 ```
 Number of issues: 10
 
@@ -44,26 +49,47 @@ Number of issues: 10
 | 3     | Method Reference      | 36                 | 
 | 4     | .......               |                    | 
 
-
 | No. | Matric | Name                    | Submitted Issues |Percentage |
 |-----|--------|-------------------------|------------------|-----------|
 | 1   | 261780 | Bu Yong Liu             | 10               | 100       |
 | 2   | 262572 | Norfatiah Binti Amir    | 8                | 80        |
 
+
+Number of assignments: 2
+
+| Issue | Title                 | Number of students |
+|-------|-----------------------|--------------------|
+| 1     | Assignment-1          | 40                 | 
+| 2     | Assignment-2.         | 36                 | 
+
+| No. | Matric | Name                    | Submitted Assignment |Percentage |
+|-----|--------|-------------------------|----------------------|-----------|
+| 1   | 261780 | Bu Yong Liu             | 2                    | 100       |
+| 2   | 262572 | Norfatiah Binti Amir    | 1                    | 50        |
+
 Your request:
 
 262572 Norfatiah Binti Amir
 No: 2
-Submitted Issues: 8
-Percentage: 80%
+Submitted Issues: 8 (80%)
+Submitted Assignments: 1 (50%)
 
 | Unsubmitted Issue | Title                 | 
 |-------------------|-----------------------|
 | 2                 | Implementing Runnable |
 | 4                 | xxxxxxxx              |
+
+| Unsubmitted Assignment | Title                 | 
+|------------------------|-----------------------|
+| 2                      | Assignment-2.         |
+
 ```
    
-5. Each issue 1 thread
+5. Your program should also meet the following requirements:
+   * Each issue will be analyzed by __ONE (1)__ thread.
+   * The number of current threads will be based on the number of processors in your laptop/machine.
+   * If an issue takes more than 1 minute to respond, the process will be terminated. The terminated notification will be sent to your Telegram Bots.
+   * (Additional requirements will be added later)
 
 6. After completing the program, generate __UML Class Diagram__
 
