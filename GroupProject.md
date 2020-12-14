@@ -16,11 +16,11 @@ You are required to develop a program using __MAVEN__ and __Java__ programming l
 
 3. Write Java methods to read a list of student from a Github Wiki page. Refer to the link below for the testing purpose.
 
-   https://github.com/STIW3054-A201/Main-Data/wiki/List_of_Student
+   https://github.com/STIW3054-A201/Main-Data/wiki/List_of_Student (use this link for testing: https://github.com/STIW3054-A191/Assignments/wiki/List_of_Student)
  
 
 4. Your program should be able to receive a MetricNo through Telegram Bots and return the following info.
-   * The number of the given issues from https://github.com/STIW3054-A201/Main-Issues/issues.
+   * The number of the given issues from https://github.com/STIW3054-A201/Main-Issues/issues. (use this link for testing: https://github.com/STIW3054-A191/Main-Issues/issues)
    * List of the issues' title and the number of students who have submitted the issues (refer to Assignment-1).
    * Count the number of submitted isssues for each student.
    * Count the percentage of the submitted isssues for each student. The percentage is based on the number of the given issues.
